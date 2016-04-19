@@ -9,8 +9,8 @@ Main features are:
 
 Technical points:
 - Application support iOS8.0 or more recent.
-- Images are downloaded asynchronously and saved into a cache (capacity: 500 images). This is in memory cache, we can create multi level cache for better use.
 - Application does not use 3rd code (from cocoapods for example), so to run it, just open with XCode and launch on a simulator.
+- Images are downloaded asynchronously and saved into a cache (capacity: 500 images). This is in memory cache, we can create multi level cache for better use.
 
 Screen shoot:
 <p align="center"><img src="screenshot.png"></p>
