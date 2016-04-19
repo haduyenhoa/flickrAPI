@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED6309751CC58B5600B65C64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6309741CC58B5600B65C64 /* AppDelegate.swift */; };
+		ED6309771CC58B5600B65C64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6309761CC58B5600B65C64 /* ViewController.swift */; };
+		ED63097A1CC58B5600B65C64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED6309781CC58B5600B65C64 /* Main.storyboard */; };
+		ED63097C1CC58B5600B65C64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED63097B1CC58B5600B65C64 /* Assets.xcassets */; };
+		ED63097F1CC58B5600B65C64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED63097D1CC58B5600B65C64 /* LaunchScreen.storyboard */; };
+		ED63098A1CC58B5600B65C64 /* TestPhilipsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6309891CC58B5600B65C64 /* TestPhilipsTests.swift */; };
+		ED6309951CC58B5600B65C64 /* TestPhilipsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6309941CC58B5600B65C64 /* TestPhilipsUITests.swift */; };
+		ED6309A41CC58C2500B65C64 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6309A31CC58C2500B65C64 /* MainViewController.swift */; };
+		ED6309A61CC58C3300B65C64 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6309A51CC58C3300B65C64 /* DetailViewController.swift */; };
+		ED6309A81CC58D1B00B65C64 /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6309A71CC58D1B00B65C64 /* ImageCell.swift */; };
+		ED6309AC1CC58D7300B65C64 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6309AB1CC58D7300B65C64 /* ImageCache.swift */; };
+		ED6309AE1CC59ABB00B65C64 /* FlickrAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6309AD1CC59ABB00B65C64 /* FlickrAgent.swift */; };
+		ED6309B01CC649CB00B65C64 /* AlertAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6309AF1CC649CB00B65C64 /* AlertAgent.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED6309861CC58B5600B65C64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED6309691CC58B5600B65C64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED6309701CC58B5600B65C64;
+			remoteInfo = TestPhilips;
+		};
+		ED6309911CC58B5600B65C64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED6309691CC58B5600B65C64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED6309701CC58B5600B65C64;
+			remoteInfo = TestPhilips;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED6309711CC58B5600B65C64 /* FlickrSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlickrSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED6309741CC58B5600B65C64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED6309761CC58B5600B65C64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED6309791CC58B5600B65C64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED63097B1CC58B5600B65C64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED63097E1CC58B5600B65C64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED6309801CC58B5600B65C64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED6309851CC58B5600B65C64 /* FlickrSample.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlickrSample.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED6309891CC58B5600B65C64 /* TestPhilipsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPhilipsTests.swift; sourceTree = "<group>"; };
+		ED63098B1CC58B5600B65C64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED6309901CC58B5600B65C64 /* FlickrSample.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlickrSample.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED6309941CC58B5600B65C64 /* TestPhilipsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPhilipsUITests.swift; sourceTree = "<group>"; };
+		ED6309961CC58B5600B65C64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED6309A31CC58C2500B65C64 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		ED6309A51CC58C3300B65C64 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		ED6309A71CC58D1B00B65C64 /* ImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
+		ED6309AB1CC58D7300B65C64 /* ImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		ED6309AD1CC59ABB00B65C64 /* FlickrAgent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrAgent.swift; sourceTree = "<group>"; };
+		ED6309AF1CC649CB00B65C64 /* AlertAgent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertAgent.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED63096E1CC58B5600B65C64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6309821CC58B5600B65C64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED63098D1CC58B5600B65C64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED6309681CC58B5600B65C64 = {
+			isa = PBXGroup;
+			children = (
+				ED6309731CC58B5600B65C64 /* FlickrSample */,
+				ED6309881CC58B5600B65C64 /* TestPhilipsTests */,
+				ED6309931CC58B5600B65C64 /* TestPhilipsUITests */,
+				ED6309721CC58B5600B65C64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED6309721CC58B5600B65C64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED6309711CC58B5600B65C64 /* FlickrSample.app */,
+				ED6309851CC58B5600B65C64 /* FlickrSample.xctest */,
+				ED6309901CC58B5600B65C64 /* FlickrSample.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED6309731CC58B5600B65C64 /* FlickrSample */ = {
+			isa = PBXGroup;
+			children = (
+				ED6309A21CC58C1200B65C64 /* src */,
+				ED6309741CC58B5600B65C64 /* AppDelegate.swift */,
+				ED6309761CC58B5600B65C64 /* ViewController.swift */,
+				ED6309781CC58B5600B65C64 /* Main.storyboard */,
+				ED63097B1CC58B5600B65C64 /* Assets.xcassets */,
+				ED63097D1CC58B5600B65C64 /* LaunchScreen.storyboard */,
+				ED6309801CC58B5600B65C64 /* Info.plist */,
+			);
+			name = FlickrSample;
+			path = TestPhilips;
+			sourceTree = "<group>";
+		};
+		ED6309881CC58B5600B65C64 /* TestPhilipsTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED6309891CC58B5600B65C64 /* TestPhilipsTests.swift */,
+				ED63098B1CC58B5600B65C64 /* Info.plist */,
+			);
+			path = TestPhilipsTests;
+			sourceTree = "<group>";
+		};
+		ED6309931CC58B5600B65C64 /* TestPhilipsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED6309941CC58B5600B65C64 /* TestPhilipsUITests.swift */,
+				ED6309961CC58B5600B65C64 /* Info.plist */,
+			);
+			path = TestPhilipsUITests;
+			sourceTree = "<group>";
+		};
+		ED6309A21CC58C1200B65C64 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				ED6309A91CC58D6200B65C64 /* Agent */,
+				ED6309A31CC58C2500B65C64 /* MainViewController.swift */,
+				ED6309A51CC58C3300B65C64 /* DetailViewController.swift */,
+				ED6309A71CC58D1B00B65C64 /* ImageCell.swift */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		ED6309A91CC58D6200B65C64 /* Agent */ = {
+			isa = PBXGroup;
+			children = (
+				ED6309AB1CC58D7300B65C64 /* ImageCache.swift */,
+				ED6309AD1CC59ABB00B65C64 /* FlickrAgent.swift */,
+				ED6309AF1CC649CB00B65C64 /* AlertAgent.swift */,
+			);
+			name = Agent;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED6309701CC58B5600B65C64 /* FlickrSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED6309991CC58B5600B65C64 /* Build configuration list for PBXNativeTarget "FlickrSample" */;
+			buildPhases = (
+				ED63096D1CC58B5600B65C64 /* Sources */,
+				ED63096E1CC58B5600B65C64 /* Frameworks */,
+				ED63096F1CC58B5600B65C64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlickrSample;
+			productName = TestPhilips;
+			productReference = ED6309711CC58B5600B65C64 /* FlickrSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED6309841CC58B5600B65C64 /* FlickrSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED63099C1CC58B5600B65C64 /* Build configuration list for PBXNativeTarget "FlickrSampleTests" */;
+			buildPhases = (
+				ED6309811CC58B5600B65C64 /* Sources */,
+				ED6309821CC58B5600B65C64 /* Frameworks */,
+				ED6309831CC58B5600B65C64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED6309871CC58B5600B65C64 /* PBXTargetDependency */,
+			);
+			name = FlickrSampleTests;
+			productName = TestPhilipsTests;
+			productReference = ED6309851CC58B5600B65C64 /* FlickrSample.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED63098F1CC58B5600B65C64 /* FlickrSampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED63099F1CC58B5600B65C64 /* Build configuration list for PBXNativeTarget "FlickrSampleUITests" */;
+			buildPhases = (
+				ED63098C1CC58B5600B65C64 /* Sources */,
+				ED63098D1CC58B5600B65C64 /* Frameworks */,
+				ED63098E1CC58B5600B65C64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED6309921CC58B5600B65C64 /* PBXTargetDependency */,
+			);
+			name = FlickrSampleUITests;
+			productName = TestPhilipsUITests;
+			productReference = ED6309901CC58B5600B65C64 /* FlickrSample.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED6309691CC58B5600B65C64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Duyen Hoa Ha";
+				TargetAttributes = {
+					ED6309701CC58B5600B65C64 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					ED6309841CC58B5600B65C64 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = ED6309701CC58B5600B65C64;
+					};
+					ED63098F1CC58B5600B65C64 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = ED6309701CC58B5600B65C64;
+					};
+				};
+			};
+			buildConfigurationList = ED63096C1CC58B5600B65C64 /* Build configuration list for PBXProject "FlickrSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED6309681CC58B5600B65C64;
+			productRefGroup = ED6309721CC58B5600B65C64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED6309701CC58B5600B65C64 /* FlickrSample */,
+				ED6309841CC58B5600B65C64 /* FlickrSampleTests */,
+				ED63098F1CC58B5600B65C64 /* FlickrSampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED63096F1CC58B5600B65C64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED63097F1CC58B5600B65C64 /* LaunchScreen.storyboard in Resources */,
+				ED63097C1CC58B5600B65C64 /* Assets.xcassets in Resources */,
+				ED63097A1CC58B5600B65C64 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6309831CC58B5600B65C64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED63098E1CC58B5600B65C64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED63096D1CC58B5600B65C64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED6309AC1CC58D7300B65C64 /* ImageCache.swift in Sources */,
+				ED6309A41CC58C2500B65C64 /* MainViewController.swift in Sources */,
+				ED6309B01CC649CB00B65C64 /* AlertAgent.swift in Sources */,
+				ED6309771CC58B5600B65C64 /* ViewController.swift in Sources */,
+				ED6309751CC58B5600B65C64 /* AppDelegate.swift in Sources */,
+				ED6309A61CC58C3300B65C64 /* DetailViewController.swift in Sources */,
+				ED6309AE1CC59ABB00B65C64 /* FlickrAgent.swift in Sources */,
+				ED6309A81CC58D1B00B65C64 /* ImageCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6309811CC58B5600B65C64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED63098A1CC58B5600B65C64 /* TestPhilipsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED63098C1CC58B5600B65C64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED6309951CC58B5600B65C64 /* TestPhilipsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED6309871CC58B5600B65C64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED6309701CC58B5600B65C64 /* FlickrSample */;
+			targetProxy = ED6309861CC58B5600B65C64 /* PBXContainerItemProxy */;
+		};
+		ED6309921CC58B5600B65C64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED6309701CC58B5600B65C64 /* FlickrSample */;
+			targetProxy = ED6309911CC58B5600B65C64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED6309781CC58B5600B65C64 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED6309791CC58B5600B65C64 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED63097D1CC58B5600B65C64 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED63097E1CC58B5600B65C64 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED6309971CC58B5600B65C64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED6309981CC58B5600B65C64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED63099A1CC58B5600B65C64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TestPhilips/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haduyenhoa.demo.TestPhilips;
+				PRODUCT_NAME = FlickrSample;
+			};
+			name = Debug;
+		};
+		ED63099B1CC58B5600B65C64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TestPhilips/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haduyenhoa.demo.TestPhilips;
+				PRODUCT_NAME = FlickrSample;
+			};
+			name = Release;
+		};
+		ED63099D1CC58B5600B65C64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TestPhilipsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haduyenhoa.demo.TestPhilipsTests;
+				PRODUCT_NAME = FlickrSample;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlickrSample.app/FlickrSample";
+			};
+			name = Debug;
+		};
+		ED63099E1CC58B5600B65C64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TestPhilipsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haduyenhoa.demo.TestPhilipsTests;
+				PRODUCT_NAME = FlickrSample;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlickrSample.app/FlickrSample";
+			};
+			name = Release;
+		};
+		ED6309A01CC58B5600B65C64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TestPhilipsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haduyenhoa.demo.TestPhilipsUITests;
+				PRODUCT_NAME = FlickrSample;
+				TEST_TARGET_NAME = TestPhilips;
+			};
+			name = Debug;
+		};
+		ED6309A11CC58B5600B65C64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TestPhilipsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haduyenhoa.demo.TestPhilipsUITests;
+				PRODUCT_NAME = FlickrSample;
+				TEST_TARGET_NAME = TestPhilips;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED63096C1CC58B5600B65C64 /* Build configuration list for PBXProject "FlickrSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED6309971CC58B5600B65C64 /* Debug */,
+				ED6309981CC58B5600B65C64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED6309991CC58B5600B65C64 /* Build configuration list for PBXNativeTarget "FlickrSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED63099A1CC58B5600B65C64 /* Debug */,
+				ED63099B1CC58B5600B65C64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED63099C1CC58B5600B65C64 /* Build configuration list for PBXNativeTarget "FlickrSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED63099D1CC58B5600B65C64 /* Debug */,
+				ED63099E1CC58B5600B65C64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED63099F1CC58B5600B65C64 /* Build configuration list for PBXNativeTarget "FlickrSampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED6309A01CC58B5600B65C64 /* Debug */,
+				ED6309A11CC58B5600B65C64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED6309691CC58B5600B65C64 /* Project object */;
+}
