@@ -1,6 +1,6 @@
 # flickrAPI
 
-**FlickrAPI** demonstrate how to use FlickrAPI in iOS using Swift  [Flickr API](https://www.flickr.com/services/api).
+**FlickrAPI** demonstrates how to use FlickrAPI in iOS using Swift  [Flickr API](https://www.flickr.com/services/api).
 
 Main features are:
 - Use the Flickr API (https://www.flickr.com/services/api/) to allow user searching for photos with specific words
@@ -10,6 +10,7 @@ Main features are:
 Technical points:
 - Application support iOS8.0 or more recent.
 - Images are downloaded asynchronously and saved into a cache (capacity: 500 images). This is in memory cache, we can create multi level cache for better use.
+- Application does not use 3rd code (from cocoapods for example), so to run it, just open with XCode and launch on a simulator.
 
 Screen shoot:
 <p align="center"><img src="screenshot.png"></p>
